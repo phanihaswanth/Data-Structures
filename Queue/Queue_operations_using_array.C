@@ -1,7 +1,9 @@
 /* C program that implement Queue (its operations) using arrays. */
 #include<stdio.h>
 #include<stdbool.h>
+#define MAX 10
 
+int queue[MAX];
 int front=-1, rear=-1;
 
 void enqueue(int n, int arr[*]);
